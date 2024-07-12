@@ -2,7 +2,29 @@
 layout: default
 ---
 
-![logo](./assets/images/instart-logo.png)
+---
+image:
+  path: /assets/images/instart-logo.png
+  height: 1000
+  width: 1200
+  alt: OpenGenomeBrowser Logo
+---
+
+<style>
+.center-content {
+    text-align: center;
+}
+
+.logo {
+    border: unset;
+    box-shadow: unset;
+    width: 500px;
+}
+}
+</style>
+
+<div class="center-content">
+<img class="logo" src="/assets/images/instart-logo.png">
 
 insta-RT is a set of software tools to make the process of contour evaluations by radiation oncologists faster by incorporating dosimetric information into the pipeline. 
 
