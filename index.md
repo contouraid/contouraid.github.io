@@ -2,14 +2,6 @@
 layout: default
 ---
 
----
-image:
-  path: /assets/images/instart-logo.png
-  height: 1000
-  width: 1200
-  alt: insta-RT Logo
----
-
 <style>
 .center-content {
     text-align: center;
