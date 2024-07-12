@@ -7,7 +7,7 @@ image:
   path: /assets/images/instart-logo.png
   height: 1000
   width: 1200
-  alt: OpenGenomeBrowser Logo
+  alt: insta-RT Logo
 ---
 
 <style>
