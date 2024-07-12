@@ -12,12 +12,17 @@ layout: default
     box-shadow: unset;
     width: 500px;
 }
+
+.left-content {
+    text-align: left;
+}
 }
 </style>
 
 <div class="center-content">
 <img class="logo" src="/assets/images/instart-logo.png">
 
+<div class="left-content">
 insta-RT is a set of software tools to make the process of contour evaluations by radiation oncologists faster by incorporating dosimetric information into the pipeline. 
 
 ## Useful links
