@@ -25,6 +25,12 @@ layout: default
 <div class="left-content">
 insta-RT is a set of software tools to make the process of contour evaluations by radiation oncologists faster by incorporating dosimetric information into the pipeline. 
 
+
+The current workflow in clinics is described [here](./current-workflow.html).
+
+
+How insta-RT attempts to address identified pain-points is described [here](./features.html).
+
 ## Useful links
 
 Click [here](./tutorials.html) for a getting started guide.
