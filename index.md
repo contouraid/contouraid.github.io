@@ -21,13 +21,12 @@ layout: default
 
 <div class="center-content">
 <img class="logo" src="/assets/images/instart-logo.png">
+</div>
 
 <div class="left-content">
 insta-RT is a set of software tools to make the process of contour evaluations by radiation oncologists faster by incorporating dosimetric information into the pipeline. 
 
-
 The current workflow in clinics is described [here](./current-workflow.html).
-
 
 How insta-RT attempts to address identified pain-points is described [here](./features.html).
 
@@ -35,8 +34,7 @@ How insta-RT attempts to address identified pain-points is described [here](./fe
 
 Click [here](./tutorials.html) for a getting started guide.
 
-
 More [documentation](./documentation.html) is a work in progress, and a typical set of use-cases is described [here](./use-cases.html).
 
-
 Initial [clinical evidence](./publications.html) has been published already, and more is in the works.
+</div>
