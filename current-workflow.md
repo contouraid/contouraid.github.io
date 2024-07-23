@@ -4,7 +4,13 @@ layout: default
 
 ## Current Radiation Oncology workflow for Glioblastoma Patients
 
-This page describes the current workflow, highlighting potential venues for improvement of the process.
+This page describes the current workflow, highlighting potential venues for improvement of the process. The TL;DR version is:
+
+1. This is a multi-step process: initial diagnosis; resection surgery; imaging; contouring; treatment planning and then quality assurance.
+2. Various clinical specialists handle each step - wait durations depends on scheduling, coordination, experience, and difficulty.
+3. insta-RT can semi-automate contouring, treatment planning and quality assurance by moving away from the waterfall-like strategy to an agile workflow with shorter iteration loops to eventually lead to better treatment plans.
+
+---
 
 ### The patient journey through a typical radiation oncology clinic
 
@@ -28,6 +34,8 @@ MR and CT scans are taken again (this is the second time), when the amount of re
 
 Waiting for 3 weeks for the edema to heal sufficiently for radiation and subsequent treatment. 
 
+---
+
 #### Decision to treat with radiation therapy
 
 This can vary depending on the prognosis: some patients reject this step (even after deciding to go ahead initially). How is the decision to do chemotherapy and radiation therapy concurrently, or sequentially done (TBD: need to get more clarity here).
@@ -38,11 +46,15 @@ MR and CT scans are taken again (this is the third time), to check if the edema 
 
 *How can insta-RT help in this step?*
 
+---
+
 #### Contouring and delineation
 
 The radiation oncologist does this using current treatment planning systems. Already, many of the organs at risk (OARs) are delineated automatically (interestingly some like the eye are based on the CT image; others could be in the future based on MR), and they focus on correcting any errors, while also manually drawing the GTV (Gross Tumor Volume), then 1.5 cm dilation for the CTV (clinical TV) - which has to be corrected and edited subjectively based on other anatomical regions around (not passing through the skull to avoid skin scarring and hair loss; not passing through the dura or the cerebellum-cerebrum boundary and so on). Then, a 3 mm extension of this becomes the PTV (Planning TV), which is finally used to plan the dose next. The goal is for the 95% of the PTV to get the prescribed radiation dose, while also having as much flatness (variance of dose within the PTV minimized) in the dose profile as possible. This has to be traded off against toxic doses to the organs at risk, which have a recipe varying between hospitals. 
 
 *How can insta-RT help in this step?*
+
+---
 
 #### Dosimetry and treatment planning 
 
@@ -50,11 +62,15 @@ This is possibly the most technically complex step. What arc angles to use? How 
 
 *How can insta-RT help in this step?*
 
+---
+
 #### Quality assurance and clinical evaluations
 
 Here is where insta-RT can help!
 
 *How can insta-RT help in this step?*
+
+---
 
 #### Treatment delivery 
 
