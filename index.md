@@ -23,11 +23,21 @@ layout: default
 <img class="logo" src="/assets/images/instart-logo.png">
 <div class="left-content"></div>
 
-insta-RT is a set of software tools to make the process of contour evaluations by radiation oncologists faster by incorporating dosimetric information into the pipeline. Follow the [news](./news.html) about us.
+insta-RT is a set of software tools to make the process of contour evaluations by radiation oncologists faster by incorporating dosimetric information into the pipeline.
 
 The [current radiation treatment planning workflow](./current-workflow.html) in clinics is long and tedious. This involves many different providers: radiation oncologists, dosimetrists, medical technicians and others. Depending on scheduling and coordination between them, the wait times for patients can be as high as two weeks. 
 
 insta-RT attempts to [change this status-quo](./features.html) by introducing automation and knowledge based intelligence into this workflow. We believe this technology has the potential to bring a new paradigm in how radiation oncology is done.
+
+## [News](news.md)
+
+<style>
+h2 a {
+   color: black;
+}
+</style>
+
+{% include news-feed.md %}
 
 ## Useful links
 
