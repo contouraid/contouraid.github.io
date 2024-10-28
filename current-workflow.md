@@ -8,7 +8,7 @@ This page describes the current workflow, highlighting potential venues for impr
 
 1. This is a multi-step process: initial diagnosis; resection surgery; imaging; contouring; treatment planning and then quality assurance.
 2. Various clinical specialists handle each step - wait durations depends on scheduling, coordination, experience, and difficulty.
-3. insta-RT can semi-automate contouring, treatment planning and quality assurance by moving away from the waterfall-like strategy to an agile workflow with shorter iteration loops to eventually lead to better treatment plans.
+3. ContourAId can semi-automate contouring, treatment planning and quality assurance by moving away from the waterfall-like strategy to an agile workflow with shorter iteration loops to eventually lead to better treatment plans.
 
 ---
 
@@ -44,7 +44,7 @@ This can vary depending on the prognosis: some patients reject this step (even a
 
 MR and CT scans are taken again (this is the third time), to check if the edema has healed, and, to actually make the treatment planning with as recent a scan as possible. This happens typically 3 weeks after the surgery.
 
-*How can insta-RT help in this step?*
+*How can ContourAId help in this step?*
 
 ---
 
@@ -52,7 +52,7 @@ MR and CT scans are taken again (this is the third time), to check if the edema 
 
 The radiation oncologist does this using current treatment planning systems. Already, many of the organs at risk (OARs) are delineated automatically (interestingly some like the eye are based on the CT image; others could be in the future based on MR), and they focus on correcting any errors, while also manually drawing the GTV (Gross Tumor Volume), then 1.5 cm dilation for the CTV (clinical TV) - which has to be corrected and edited subjectively based on other anatomical regions around (not passing through the skull to avoid skin scarring and hair loss; not passing through the dura or the cerebellum-cerebrum boundary and so on). Then, a 3 mm extension of this becomes the PTV (Planning TV), which is finally used to plan the dose next. The goal is for the 95% of the PTV to get the prescribed radiation dose, while also having as much flatness (variance of dose within the PTV minimized) in the dose profile as possible. This has to be traded off against toxic doses to the organs at risk, which have a recipe varying between hospitals. 
 
-*How can insta-RT help in this step?*
+*How can ContourAId help in this step?*
 
 ---
 
@@ -60,15 +60,15 @@ The radiation oncologist does this using current treatment planning systems. Alr
 
 This is possibly the most technically complex step. What arc angles to use? How many arcs to use (2, 3, or 4?: larger is more time consuming, but can be more conformal); what kind of treatment plan and machine to use (Trubeam IMRT, VMAT; cyberknife; ETHOS? and others); what are the priorities to apply to each organ at risk while optimizing the plan? What subjective limits on the DVH curve is applied to each organ and tumor itself to align with the clinical goals? If clinical goals cannot be met, where do we first go to trade off choices? 
 
-*How can insta-RT help in this step?*
+*How can ContourAId help in this step?*
 
 ---
 
 #### Quality assurance and clinical evaluations
 
-Here is where insta-RT can help!
+Here is where ContourAId can help!
 
-*How can insta-RT help in this step?*
+*How can ContourAId help in this step?*
 
 ---
 
