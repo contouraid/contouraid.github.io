@@ -20,7 +20,7 @@ layout: default
 </style>
 
 <div class="center-content"></div>
-<img class="logo" src="/assets/images/instart-logo.png" alt="ContourAId logo">
+<img class="logo" src="/assets/images/contouraid-logo.png" alt="ContourAId logo">
 <div class="left-content"></div>
 
 ContourAId is a set of software tools to make the process of contour evaluations by radiation oncologists faster by incorporating dosimetric information into the pipeline.
