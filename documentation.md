@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to another page
+## Documentation
 
-_yay_
+This is a Work-in-progress. This page will be updated in the near future.
 
 [back](./)

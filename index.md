@@ -23,7 +23,7 @@ layout: default
 <img class="logo" src="/assets/images/contouraid-logo.png" alt="ContourAId logo">
 <div class="left-content"></div>
 
-ContourAId is a set of software tools to make the process of contour evaluations by radiation oncologists faster by incorporating dosimetric information into the pipeline.
+ContourAId is a co-pilot for making the radiotherapy treatment planning process faster and more accurate.
 
 The [current radiation treatment planning workflow](./current-workflow.html) in clinics is long and tedious. This involves many different providers: radiation oncologists, dosimetrists, medical technicians and others. Depending on scheduling and coordination between them, the wait times for patients can be as high as two weeks. 
 
@@ -39,10 +39,6 @@ h2 a {
 
 {% include news-feed.md %}
 
-## Useful links
+## Contact us
 
-We have put together a [getting-started guide](./tutorials.html) for learning more about how ContourAId can be used.
-
-More [documentation](./documentation.html) is a work in progress, and a typical set of use-cases is described [here](./use-cases.html).
-
-Initial [clinical evidence](./publications.html) has been published already, and more is in the works.
+Contact us at contact@contouraid.com
