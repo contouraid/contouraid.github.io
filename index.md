@@ -23,11 +23,11 @@ layout: default
 <img class="logo" src="/assets/images/contouraid-logo.png" alt="ContourAId logo">
 <div class="left-content"></div>
 
-ContourAId is a co-pilot for making the radiotherapy treatment planning process faster and more accurate.
+Step into a new era of radiotherapy with ContourAId — designed to transform the art and science of treatment planning.
 
-The [current radiation treatment planning workflow](./current-workflow.html) in clinics is long and tedious. This involves many different providers: radiation oncologists, dosimetrists, medical technicians and others. Depending on scheduling and coordination between them, the wait times for patients can be as high as two weeks. 
+Imagine if one could seamlessly weave together the expertise of clinicians, the precision of data, and the power of automation. ContourAId is more than just a tool; it’s an intuitive co-pilot, bringing speed, accuracy, and a vision of what’s possible to an often tedious process. 
 
-ContourAId attempts to [change this status-quo](./features.html) by introducing automation and knowledge based intelligence into this workflow. We believe this technology has the potential to bring a new paradigm in how radiation oncology is done.
+In a world where each day matters, ContourAId shortens the distance between diagnosis and treatment, simplifying a complex dance of schedules and expertise. Our intelligent solution signals a paradigm shift with the promise of redefining radiation oncology as we know it.
 
 ## [News](news.md)
 
@@ -41,4 +41,4 @@ h2 a {
 
 ## Contact us
 
-Contact us at contact@contouraid.com
+Reach us at [contact@contouraid.com](mailto:contact@contouraid.com)
