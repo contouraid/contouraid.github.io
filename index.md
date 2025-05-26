@@ -4,27 +4,18 @@ layout: default
 
 [![ContourAID Promo](https://img.youtube.com/vi/MRQkXFE2ABM/0.jpg)](https://www.youtube.com/watch?v=MRQkXFE2ABM)
 
+ContourAID is developing advanced software solutions for radiation oncology workflows. Our technology aims to enhance efficiency in treatment planning processes while maintaining high quality standards. We focus on streamlining clinical workflows to help medical professionals deliver better patient care.
 
-ContourAID aims to revolutionize radiation oncology by reducing radiotherapy planning time from weeks to days. By streamlining contouring and minimizing feedback loops between doctors and physicists, our solution ensures a high-quality, and efficient planning workflow. This accelerates treatment initiation and improves treatment outcomes, while alleviating the burden on clinicians. Our mission is to enhance global care through innovative, reliable software.
+### Our Focus
 
-### The Problem
+We're working on:
 
-Accurate contouring of target volumes and organs is vital for optimal radiotherapy treatments. However, the process is complex, relying on clinician expertise, subjective interpretation, and multidisciplinary collaboration. This leads to:
+• Workflow optimization for clinical teams
+• Quality assurance in treatment planning
+• Time-efficient solutions for healthcare providers
 
-• Inefficient tedious tasks for doctors.
-• Inconsistent results that are prone to errors.
-• Extended planning times.
+Our goal is to support medical professionals with reliable tools that enhance their existing workflows while maintaining the highest standards of patient care.
 
-A more efficient and accurate approach is required to ensure consistent, high-quality patient care, enhancing treatment efficiency and outcomes.
+## Contact
 
-### The Solution
-
-ContourAID uses AI to generate contours for organs and targets from CT and MR imaging in glioblastoma patients. It combines automatic segmentation and dose prediction, to provide real-time quality control, dosimetric feedback, and pre-planning insights to streamline radiotherapy workflows. By enhancing quality assurance, and reducing feedback loops, ContourAID accelerates planning, improves treatment accuracy and ultimately provides faster and high-quality care for patients.
-
-## [News](news.md)
-
-{% include news-feed.md %}
-
-## Contact us
-
-Reach us at [contact@contouraid.com](mailto:contact@contouraid.com)
+For inquiries: [contact@contouraid.com](mailto:contact@contouraid.com)
